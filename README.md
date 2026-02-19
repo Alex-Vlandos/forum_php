@@ -3,7 +3,7 @@
 A simple forum website with **Breaking Bad** theme, built with **MySQL** and **PHP**.
 
 ## 📸 Screenshots
-(BrBa_forum.png)
+![screenshot](screenshot/BrBa_forum.png)
 
 ## 🛠️ Technologies
 - **PHP** (backend)
