@@ -1,0 +1,148 @@
+#mainBar {
+    width: 100%;
+    background: rgb(238, 162, 21);
+    display: flex;
+    position:relative;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(136, 158, 54, 0.932); 
+}
+#mainBar div h3{
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#mainBar div h3:hover{
+    white-space:nowrap;
+    overflow:auto;
+}
+#postresults{
+    flex-direction:column;
+}
+.post{
+    position: relative;
+    width: 100%;
+    border:1px solid black;
+    border-radius:10px;
+    background-color: rgba(146, 155, 22, 0.719); 
+}
+#postContent{
+    background-color: rgba(252, 175, 8, 0.377) !important;
+}
+.post > div{
+    border-right:1px solid black;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+.post > div:hover{
+    overflow:auto;
+}
+.lastColumn{
+    border-right:0px !important;
+}
+div .row{
+    font-family: "Sofia", sans-serif;
+    margin-bottom:10px;
+    padding:5px;
+}
+div h5{
+    font-family: "Sofia", sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.dafont.com/forum/attach/orig/1/4/149303.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Sofia", sans-serif;
+    min-height: 100vh;
+}
+#welcome{
+    background-image: linear-gradient(to right, rgba(150, 216, 255, 0.712), rgba(0, 255, 136, 0.623));
+    border:1px dashed black;
+    padding:20px;
+    margin-top:10px;
+    display:flex;
+}
+/* #methCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999; 
+} */
+#alert_modal_style{
+    background-image: linear-gradient(to right, rgba(150, 216, 255, 0.712), rgba(0, 38, 255, 0.623)) !important;
+    font-family: "Sofia", sans-serif;
+}
+#replyForm{
+    display:flex;
+    flex-direction: row;
+    overflow: auto;
+}
+#close_button{
+    position:absolute;
+    top: 20px;
+    right: 15px;
+}
+#replyModal .modal-content{
+    background-image:linear-gradient(to right, rgb(181, 192, 23), rgb(129, 221, 134));
+    font-family: "Sofia", sans-serif;
+}
+#loginForm,#loginForm input{
+    background-image: linear-gradient(to right, rgba(150, 216, 255, 0.349), rgba(0, 38, 255, 0.623));
+    background-color: rgba(240, 248, 255, 0.377);
+    font-family: "Sofia", sans-serif;
+}
+#loginForm{
+    animation:glow 10s ease-in-out infinite alternate;
+}
+#creationForm,#creationForm input{
+    background-image: linear-gradient(to right, rgba(150, 216, 255, 0.397), rgba(0, 38, 255, 0.623));
+    background-color: rgba(240, 248, 255, 0.377);
+    font-family: "Sofia", sans-serif;
+}
+#creationForm{
+    animation:glow 10s ease-in-out infinite alternate;
+}
+#signupForm,#signupForm input{
+    background-image: linear-gradient(to right, rgba(150, 216, 255, 0.397), rgba(0, 38, 255, 0.623));
+    background-color: rgba(240, 248, 255, 0.377);
+    font-family: "Sofia", sans-serif;
+}
+#signupForm{
+    animation:glow 10s ease-in-out infinite alternate;
+}
+#createUserForm,#createUserForm input,#createUserForm select{
+    background-image: linear-gradient(to right, rgba(255, 150, 150, 0.397), rgba(255, 115, 0, 0.568));
+    background-color: rgba(240, 248, 255, 0.377);
+    font-family: "Sofia", sans-serif;
+}
+#createUserForm{
+    animation:glow 10s ease-in-out infinite alternate;
+}
+#createUserButton{
+    margin-top:5px;
+    font-family: "Sofia", sans-serif;
+}
+button {
+    background-color: rgba(252, 170, 8, 0.377) !important;
+}
+  @keyframes glow {
+    0% { box-shadow: 12px 12px 12px #d463377a; }
+    50% { box-shadow: 12px 12px 12px #96df0e62; }
+    100% { box-shadow: 12px 12px 12px #c5c332a8; }
+  }
+#myBreadcrumb li a{
+    text-decoration: none;
+}
+#existingReplies{
+    margin-left:15px;
+    margin-top: 10px;
+}
