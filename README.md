@@ -3,7 +3,7 @@
 A simple forum website with **Breaking Bad** theme, built with **MySQL** and **PHP**.
 
 ## 📸 Screenshots
-![screenshot](screenshot/BrBa_forum.png)
+![screenshot](BrBa_forum.png)
 
 ## 🛠️ Technologies
 - **PHP** (backend)
@@ -19,7 +19,7 @@ A simple forum website with **Breaking Bad** theme, built with **MySQL** and **P
 ## 🚀 Installation
 1. **Clone** this repository:
    ```bash
-   git clone https://github.com/your-username/breaking-bad-forum.git
+   git clone https://github.com/your-username/forum_php.git
 2. Move the files to your htdocs folder (in XAMPP)
 3. Create the database:
 - Open http://localhost/phpmyadmin
@@ -48,4 +48,4 @@ Feel free to fork this project and improve it!
 This project is for educational purposes.
 
 ---
-Created by [Alex Vlandos]
+Created by [Alex Vlandos](https://github.com/Alex-Vlandos)
